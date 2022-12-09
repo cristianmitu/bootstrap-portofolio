@@ -1,0 +1,46 @@
+
+:root{
+    /*colors*/
+    --bg-color:#88bdbc;
+    --buttons-color: #254E58;
+    --shadow-color: #112D32;
+    --dark-brown: #4F4A41;
+    --light-brown: #6E6658;
+    --white:rgb(245, 238, 238);
+    -black:rgb(39, 17, 17);
+    /*fonts*/
+    --font:"Times New Roman", Times, serif;
+
+}
+nav figure {
+    margin: 0;
+    border: 0.5px solid transparent;
+    border-radius: ;
+}
+nav figure img {
+    border: 0.5px solid transparent;
+    border-radius: 25px;
+}
+nav{
+    font-family: var(--font);
+    background-color: var(--info); 
+    }
+#navMain a{
+    font-size:xx-large;
+    font-weight: 900;
+    color:var(--white);
+    margin: 10px;
+}
+#myToggler{
+    color:var(--dark-brown);
+    border-color: var(--white);
+    background-color: var(--bg-color);
+}
+#navBrandPic{
+    height: 50px;
+    margin: 0 auto;
+}    
+
+.navMenu{
+    justify-content: flex-end;
+}
