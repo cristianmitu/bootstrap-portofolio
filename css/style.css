@@ -12,6 +12,9 @@
     --font:"Times New Roman", Times, serif;
 
 }
+body{
+    background-color: var(--bg-color);
+}
 nav figure {
     margin: 0;
     border: 0.5px solid transparent;
@@ -43,4 +46,28 @@ nav{
 
 .navMenu{
     justify-content: flex-end;
+}
+.jumboContainer{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    background-image: url('/images/coding.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 10px;
+    border: 1px transparent;
+    border-radius: 10px;
+}
+.myJumbo{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 0;
+    width: 100%;
+
+    
 }
